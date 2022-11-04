@@ -1,0 +1,12 @@
+{% extends 'template_padre.html' %}
+
+{% load static %}
+
+{% block contenidoQueCambia %}
+  <h1>Bienvenido, aca podes ver tu turno!</h1>
+  <a href="{%url 'TurnoFormulario'%}"> 
+    Saca tu turno aca!
+  </a>
+  
+               
+{% endblock contenidoQueCambia %}

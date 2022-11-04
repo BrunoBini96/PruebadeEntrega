@@ -1,0 +1,11 @@
+{% extends 'template_padre.html' %}
+
+{% load static %}
+
+{% block contenidoQueCambia %}
+  <h1>Estos son nuestros profesionales</h1>
+  <a href="{% url 'DoctorFormulario' %}">
+    Agregar Doctor
+  </a>
+               
+{% endblock contenidoQueCambia %}
