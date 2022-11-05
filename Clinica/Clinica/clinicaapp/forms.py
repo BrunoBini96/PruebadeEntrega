@@ -18,6 +18,6 @@ class DoctorFormulario(forms.Form):
 class TurnosFormulario(forms.Form):
     doctor = forms.CharField(max_length = 20)
     paciente = forms.CharField(max_length = 20) 
-    horario = forms.TimeField
-    fecha = forms.DateField
+    horario = forms.TimeField()
+    fecha = forms.DateField()
     consultorio = forms.CharField(max_length = 20)   
